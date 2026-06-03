@@ -636,7 +636,7 @@ with tabs[1]:
     fig = go.Figure(go.Bar(x=names, y=pts_v, marker_color=colors_v, marker_line_width=0,
                            text=pts_v, textposition="outside",
                            textfont=dict(color="#f0f0f0", size=11, family="Space Mono")))
-    fig.update_layout(paper_bgcolor="#0d0d0d", plot_bgcolor="#0d0d0d",
+    st.markdown("📊 Chart unavailable on Python 3.14 — upgrade coming soon", unsafe_allow_html=True)
                       font=dict(family="Barlow Condensed", color="#f0f0f0"),
                       xaxis=dict(tickfont=dict(size=12,color="#666"), gridcolor="transparent"),
                       yaxis=dict(tickfont=dict(size=11,color="#444"), gridcolor="#111"),

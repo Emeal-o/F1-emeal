@@ -1,9 +1,8 @@
-streamlit==1.35.0
-fastf1==3.4.0
-pandas==2.2.2
-numpy==1.26.4
-plotly==5.22.0
-requests==2.31.0
-beautifulsoup4==4.12.3
-pytz==2024.1
-Pillow==10.3.0
+streamlit
+fastf1
+pandas
+numpy
+plotly
+requests
+beautifulsoup4
+pytz
